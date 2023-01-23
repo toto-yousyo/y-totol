@@ -1,0 +1,9 @@
+baseURL = 'http://totol.yousyo.com/'
+languageCode = 'ja'
+title = 'Index'
+theme = "PaperMod"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+
