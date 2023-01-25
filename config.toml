@@ -1,8 +1,7 @@
-baseURL = 'http://totol.yousyo.com/'
+baseURL = 'http://toto.cocotte.jp/totol/'
 languageCode = 'ja'
 title = 'Index'
 theme = 'PaperMod'
-
 
 [markup.goldmark.renderer]
   unsafe = true
