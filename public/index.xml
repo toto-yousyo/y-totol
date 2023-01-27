@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Index</title>
+    <title>TOTOL</title>
     <link>http://totol.yousyo.com/</link>
     <description>Recent content on Index</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 21 Jan 2023 22:54:21 +0900</lastBuildDate><atom:link href="http://totol.yousyo.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
+      <title>Org-mode-totol</title>
       <link>http://totol.yousyo.com/posts/first/</link>
       <pubDate>Sat, 21 Jan 2023 22:54:21 +0900</pubDate>
       
       <guid>http://totol.yousyo.com/posts/first/</guid>
-      <description>#　テスト
-これで日本語をするとどうか どこまでできるか
-いつ どこ どこ これは どこまでできるか２
-終了 </description>
+      <description>この沼は、お金は溶けないが時間が溶けるのは理解した。 </description>
     </item>
     
     <item>
-      <title>My first post</title>
+      <title>emacs28.2をインストールしてみる</title>
       <link>http://totol.yousyo.com/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://totol.yousyo.com/posts/my-first-post/</guid>
-      <description>This is my post body</description>
+      <description>とりあえず昨日できなかったemacs28.2をインストールしようとしている。</description>
     </item>
     
     <item>

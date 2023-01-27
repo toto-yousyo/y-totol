@@ -5,19 +5,22 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>My first post | Index</title>
-<meta name="keywords" content="tag1">
-<meta name="description" content="This is my post body">
+<title>emacs28.2をインストールしてみる | Index</title>
+<meta name="keywords" content="emacs">
+<meta name="description" content="とりあえず昨日できなかったemacs28.2をインストールしようとしている。
+ダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。
+そしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。
+もうちょい、のはず…">
 <meta name="author" content="toto">
-<link rel="canonical" href="http://totol.yousyo.com/posts/my-first-post/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css" integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+<link rel="canonical" href="http://toto.cocotte.jp/totol/posts/my-first-post/">
+<link crossorigin="anonymous" href="/totol/assets/css/stylesheet.96899f97d8f8189d0ff2f895ef7d104ef2a38fa0104562f554c249c6476eda64.css" integrity="sha256-lomfl9j4GJ0P8viV730QTvKjj6AQRWL1VMJJxkdu2mQ=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/totol/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="http://totol.yousyo.com/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://totol.yousyo.com/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://totol.yousyo.com/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://totol.yousyo.com/apple-touch-icon.png">
-<link rel="mask-icon" href="http://totol.yousyo.com/safari-pinned-tab.svg">
+<link rel="icon" href="http://toto.cocotte.jp/totol/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://toto.cocotte.jp/totol/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://toto.cocotte.jp/totol/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://toto.cocotte.jp/totol/apple-touch-icon.png">
+<link rel="mask-icon" href="http://toto.cocotte.jp/totol/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -56,16 +59,22 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="My first post" />
-<meta property="og:description" content="This is my post body" />
+</noscript><meta property="og:title" content="emacs28.2をインストールしてみる" />
+<meta property="og:description" content="とりあえず昨日できなかったemacs28.2をインストールしようとしている。
+ダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。
+そしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。
+もうちょい、のはず…" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://totol.yousyo.com/posts/my-first-post/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://toto.cocotte.jp/totol/posts/my-first-post/" /><meta property="article:section" content="posts" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My first post"/>
-<meta name="twitter:description" content="This is my post body"/>
+<meta name="twitter:title" content="emacs28.2をインストールしてみる"/>
+<meta name="twitter:description" content="とりあえず昨日できなかったemacs28.2をインストールしようとしている。
+ダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。
+そしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。
+もうちょい、のはず…"/>
 
 
 <script type="application/ld+json">
@@ -77,13 +86,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://totol.yousyo.com/posts/"
+      "item": "http://toto.cocotte.jp/totol/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "My first post",
-      "item": "http://totol.yousyo.com/posts/my-first-post/"
+      "name": "emacs28.2をインストールしてみる",
+      "item": "http://toto.cocotte.jp/totol/posts/my-first-post/"
     }
   ]
 }
@@ -92,14 +101,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "My first post",
-  "name": "My first post",
-  "description": "This is my post body",
+  "headline": "emacs28.2をインストールしてみる",
+  "name": "emacs28.2をインストールしてみる",
+  "description": "とりあえず昨日できなかったemacs28.2をインストールしようとしている。\nダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。\nそしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。\nもうちょい、のはず…",
   "keywords": [
-    "tag1"
+    "emacs"
   ],
-  "articleBody": "This is my post body\n",
-  "wordCount" : "5",
+  "articleBody": "とりあえず昨日できなかったemacs28.2をインストールしようとしている。\nダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。\nそしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。\nもうちょい、のはず…\n",
+  "wordCount" : "6",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -109,14 +118,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://totol.yousyo.com/posts/my-first-post/"
+    "@id": "http://toto.cocotte.jp/totol/posts/my-first-post/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Index",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://totol.yousyo.com/favicon.ico"
+      "url": "http://toto.cocotte.jp/totol/favicon.ico"
     }
   }
 }
@@ -138,7 +147,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://totol.yousyo.com/" accesskey="h" title="Index (Alt + H)">Index</a>
+            <a href="http://toto.cocotte.jp/totol/" accesskey="h" title="Index (Alt + H)">Index</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -172,27 +181,30 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      My first post
+      emacs28.2をインストールしてみる
     </h1>
     <div class="post-meta">toto
 
 </div>
   </header> 
-  <div class="post-content"><p>This is my post body</p>
+  <div class="post-content"><p>とりあえず昨日できなかったemacs28.2をインストールしようとしている。</p>
+<p>ダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。</p>
+<p>そしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。</p>
+<p>もうちょい、のはず…</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://totol.yousyo.com/tags/tag1/">tag1</a></li>
+      <li><a href="http://toto.cocotte.jp/totol/tags/emacs/">emacs</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="http://totol.yousyo.com/">Index</a></span>
+    <span>&copy; 2023 <a href="http://toto.cocotte.jp/totol/">Index</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

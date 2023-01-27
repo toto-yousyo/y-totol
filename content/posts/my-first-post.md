@@ -1,9 +1,14 @@
 +++
-title = "My first post"
+title = "emacs28.2をインストールしてみる"
 author = ["toto"]
-tags = ["tag1"]
-categories = ["category1"]
+tags = ["emacs"]
 draft = false
 +++
 
-This is my post body
+とりあえず昨日できなかったemacs28.2をインストールしようとしている。
+
+ダウンロードしてきたtar.gz とかいう拡張子のものを解凍して、中にあって（たまたま）開いたインストール方法のファイルを見ながら、言われるままconfigureファイルを実行してみる。
+
+そしたら、あれが足りない、あれをインストールしたらこれが足りない、それが足りないと、色んなものを入れつつ、何度目かのconfigure実行で、やっと、make installに進めた。
+
+もうちょい、のはず…
