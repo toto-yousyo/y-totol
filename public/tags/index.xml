@@ -7,11 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="http://totol.yousyo.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>emacs</title>
+      <link>http://totol.yousyo.com/tags/emacs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://totol.yousyo.com/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://totol.yousyo.com/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://totol.yousyo.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tag1</title>
       <link>http://totol.yousyo.com/tags/tag1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://totol.yousyo.com/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>http://totol.yousyo.com/tags/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://totol.yousyo.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
