@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Index</title>
-    <link>http://toto.cocotte.jp/totol/posts/</link>
+    <link>http://totol.yousyo.com/posts/</link>
     <description>Recent content in Posts on Index</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Jan 2023 22:54:21 +0900</lastBuildDate><atom:link href="http://toto.cocotte.jp/totol/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jan 2023 22:54:21 +0900</lastBuildDate><atom:link href="http://totol.yousyo.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://toto.cocotte.jp/totol/posts/first/</link>
+      <link>http://totol.yousyo.com/posts/first/</link>
       <pubDate>Sat, 21 Jan 2023 22:54:21 +0900</pubDate>
       
-      <guid>http://toto.cocotte.jp/totol/posts/first/</guid>
+      <guid>http://totol.yousyo.com/posts/first/</guid>
       <description>#　テスト
 これで日本語をするとどうか どこまでできるか
 いつ どこ どこ これは どこまでできるか２
@@ -21,28 +21,28 @@
     
     <item>
       <title>3 台のデバイスを同期させるのに Git を使っている</title>
-      <link>http://toto.cocotte.jp/totol/posts/dropbox-git/</link>
+      <link>http://totol.yousyo.com/posts/dropbox-git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://toto.cocotte.jp/totol/posts/dropbox-git/</guid>
+      <guid>http://totol.yousyo.com/posts/dropbox-git/</guid>
       <description>Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 git&amp;ndash;localbranching-on the cheap にしっかりとした説明があったので、これを読みながら勉強する。</description>
     </item>
     
     <item>
       <title>My first post</title>
-      <link>http://toto.cocotte.jp/totol/posts/my-first-post/</link>
+      <link>http://totol.yousyo.com/posts/my-first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://toto.cocotte.jp/totol/posts/my-first-post/</guid>
+      <guid>http://totol.yousyo.com/posts/my-first-post/</guid>
       <description>This is my post body</description>
     </item>
     
     <item>
       <title>環境を ubuntu、emacs(org-mode, org-roam)、GitHub に変えてみた。</title>
-      <link>http://toto.cocotte.jp/totol/posts/ubuntu-emacs-hugo/</link>
+      <link>http://totol.yousyo.com/posts/ubuntu-emacs-hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://toto.cocotte.jp/totol/posts/ubuntu-emacs-hugo/</guid>
+      <guid>http://totol.yousyo.com/posts/ubuntu-emacs-hugo/</guid>
       <description>以前の環境 Windows（Mac のブートキャンプ）、Dropbox、iA Writer、Todoist、Joplin。最後は Joplin を使用していましたが、Obsidian や Logseq、Tangent を併用していました。
 書き物は iA Writer でして、タスク管理を Todoist、各デバイスの同期は Dropbox です。
 iPhone や iPad、デスクトップの Windows のどれでも同じ環境でできること、どれかのデバイスに登録したら、全ての端末からでも管理できる状態にしたい、というのがメインで考えてました。
