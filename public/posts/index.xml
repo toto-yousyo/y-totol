@@ -29,6 +29,17 @@
     </item>
     
     <item>
+      <title>Doom documents</title>
+      <link>http://totol.yousyo.com/posts/doom-keybind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://totol.yousyo.com/posts/doom-keybind/</guid>
+      <description>Fundemental Key bind Navigate window : SPC-f- Find file : SPC-SPC or SPC-p- Help anything : SPC-h- Getting started with Doom Emacs — A great transition from Vim to Emacs | by Aria Edmonds | Medium
+evil Jump to specific line
+evil-easymotion: g-s-j search words : s- comment something: gc comment paragraoh: gcgsj and select comment this line: Vjjgc delete indentation : dii delete indentation plus the line above : dik delete indentation plus the line abobe and below The niceties of evil in Doom Emacs | by Aria Edmonds | Medium</description>
+    </item>
+    
+    <item>
       <title>hugo で書き出したファイルの画像リンクが切れる</title>
       <link>http://totol.yousyo.com/posts/hugoimage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>doom on TOTOL</title>
+    <link>http://totol.yousyo.com/tags/doom/</link>
+    <description>Recent content in doom on TOTOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="http://totol.yousyo.com/tags/doom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doom documents</title>
+      <link>http://totol.yousyo.com/posts/doom-keybind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://totol.yousyo.com/posts/doom-keybind/</guid>
+      <description>Fundemental Key bind Navigate window : SPC-f- Find file : SPC-SPC or SPC-p- Help anything : SPC-h- Getting started with Doom Emacs — A great transition from Vim to Emacs | by Aria Edmonds | Medium
+evil Jump to specific line
+evil-easymotion: g-s-j search words : s- comment something: gc comment paragraoh: gcgsj and select comment this line: Vjjgc delete indentation : dii delete indentation plus the line above : dik delete indentation plus the line abobe and below The niceties of evil in Doom Emacs | by Aria Edmonds | Medium</description>
+    </item>
+    
+  </channel>
+</rss>
