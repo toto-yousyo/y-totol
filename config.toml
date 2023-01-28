@@ -1,6 +1,6 @@
 baseURL = 'http://totol.yousyo.com/'
 languageCode = 'ja'
-title = 'Index'
+title = 'TOTOL'
 theme = 'PaperMod'
 
 [markup.goldmark.renderer]
