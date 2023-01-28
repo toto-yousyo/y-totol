@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>3 台のデバイスを同期させるのに Git を使っている | Index</title>
 <meta name="keywords" content="">
-<meta name="description" content=" Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 にしっかりとした説明があったので、これを読みながら勉強する。 ">
+<meta name="description" content="Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 git&ndash;localbranching-on the cheap にしっかりとした説明があったので、これを読みながら勉強する。">
 <meta name="author" content="toto">
 <link rel="canonical" href="http://toto.cocotte.jp/totol/posts/dropbox-git/">
 <link crossorigin="anonymous" href="/totol/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css" integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as="style">
@@ -57,7 +57,7 @@
 
     </style>
 </noscript><meta property="og:title" content="3 台のデバイスを同期させるのに Git を使っている" />
-<meta property="og:description" content=" Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 にしっかりとした説明があったので、これを読みながら勉強する。 " />
+<meta property="og:description" content="Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 git&ndash;localbranching-on the cheap にしっかりとした説明があったので、これを読みながら勉強する。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://toto.cocotte.jp/totol/posts/dropbox-git/" /><meta property="article:section" content="posts" />
 
@@ -65,7 +65,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="3 台のデバイスを同期させるのに Git を使っている"/>
-<meta name="twitter:description" content=" Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 にしっかりとした説明があったので、これを読みながら勉強する。 "/>
+<meta name="twitter:description" content="Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 git&ndash;localbranching-on the cheap にしっかりとした説明があったので、これを読みながら勉強する。"/>
 
 
 <script type="application/ld+json">
@@ -94,12 +94,12 @@
   "@type": "BlogPosting",
   "headline": "3 台のデバイスを同期させるのに Git を使っている",
   "name": "3 台のデバイスを同期させるのに Git を使っている",
-  "description": " Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 にしっかりとした説明があったので、これを読みながら勉強する。 ",
+  "description": "Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 git\u0026ndash;localbranching-on the cheap にしっかりとした説明があったので、これを読みながら勉強する。",
   "keywords": [
     
   ],
-  "articleBody": " Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 にしっかりとした説明があったので、これを読みながら勉強する。 ",
-  "wordCount" : "19",
+  "articleBody": " Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？ push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。 git–localbranching-on the cheap にしっかりとした説明があったので、これを読みながら勉強する。\n",
+  "wordCount" : "22",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -182,7 +182,8 @@
 Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？
 push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。
 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。
-<https://git-scm.com(git--localobranching-on the cheap)>にしっかりとした説明があったので、これを読みながら勉強する。
+<p><a href="https://git-scm.com">git&ndash;localbranching-on the cheap</a>
+にしっかりとした説明があったので、これを読みながら勉強する。</p>
 
 
   </div>

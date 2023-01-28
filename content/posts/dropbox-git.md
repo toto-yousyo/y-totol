@@ -8,4 +8,6 @@ draft = false
 Dropbox で同期させてると全然意識してなかったが、Git でひとりで同期（？）させてるだけなのに、なんでこんなに難しいのか？
 push や pull で origin がないとか master がないとかコンフリクト起こしているとか。時間がめちゃかかって作業することさえあきらめる。
 別に Dropbox や GoogleDrive でも充分なんだけど、勉強のつもりで Git をもう少し触ってみる。
-<https://git-scm.com(git--localobranching-on the cheap)>にしっかりとした説明があったので、これを読みながら勉強する。
+
+[git--localbranching-on the cheap](https://git-scm.com)
+にしっかりとした説明があったので、これを読みながら勉強する。
