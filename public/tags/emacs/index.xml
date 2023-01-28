@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>emacs on Index</title>
-    <link>http://totol.yousyo.com/tags/emacs/</link>
+    <link>http://toto.cocotte.jp/totol/tags/emacs/</link>
     <description>Recent content in emacs on Index</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="http://totol.yousyo.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language><atom:link href="http://toto.cocotte.jp/totol/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>環境を ubuntu、emacs(org-mode, org-roam)、GitHub に変えてみた。</title>
-      <link>http://totol.yousyo.com/posts/ubuntu-emacs-hugo/</link>
+      <link>http://toto.cocotte.jp/totol/posts/ubuntu-emacs-hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://totol.yousyo.com/posts/ubuntu-emacs-hugo/</guid>
+      <guid>http://toto.cocotte.jp/totol/posts/ubuntu-emacs-hugo/</guid>
       <description>以前の環境 Windows（Mac のブートキャンプ）、Dropbox、iA Writer、Todoist、Joplin。最後は Joplin を使用していましたが、Obsidian や Logseq、Tangent を併用していました。
 書き物は iA Writer でして、タスク管理を Todoist、各デバイスの同期は Dropbox です。
 iPhone や iPad、デスクトップの Windows のどれでも同じ環境でできること、どれかのデバイスに登録したら、全ての端末からでも管理できる状態にしたい、というのがメインで考えてました。

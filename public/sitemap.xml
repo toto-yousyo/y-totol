@@ -2,31 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://totol.yousyo.com/posts/first/</loc>
+    <loc>http://toto.cocotte.jp/totol/posts/first/</loc>
     <lastmod>2023-01-21T22:54:21+09:00</lastmod>
   </url><url>
-    <loc>http://totol.yousyo.com/</loc>
+    <loc>http://toto.cocotte.jp/totol/</loc>
     <lastmod>2023-01-21T22:54:21+09:00</lastmod>
   </url><url>
-    <loc>http://totol.yousyo.com/posts/</loc>
+    <loc>http://toto.cocotte.jp/totol/posts/</loc>
     <lastmod>2023-01-21T22:54:21+09:00</lastmod>
   </url><url>
-    <loc>http://totol.yousyo.com/categories/</loc>
+    <loc>http://toto.cocotte.jp/totol/posts/dropbox-git/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/categories/category1/</loc>
+    <loc>http://toto.cocotte.jp/totol/categories/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/tags/emacs/</loc>
+    <loc>http://toto.cocotte.jp/totol/categories/category1/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/tags/hugo/</loc>
+    <loc>http://toto.cocotte.jp/totol/tags/emacs/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/posts/my-first-post/</loc>
+    <loc>http://toto.cocotte.jp/totol/tags/hugo/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/tags/tag1/</loc>
+    <loc>http://toto.cocotte.jp/totol/posts/my-first-post/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/tags/</loc>
+    <loc>http://toto.cocotte.jp/totol/tags/tag1/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/tags/ubuntu/</loc>
+    <loc>http://toto.cocotte.jp/totol/tags/</loc>
   </url><url>
-    <loc>http://totol.yousyo.com/posts/ubuntu-emacs-hugo/</loc>
+    <loc>http://toto.cocotte.jp/totol/tags/ubuntu/</loc>
+  </url><url>
+    <loc>http://toto.cocotte.jp/totol/posts/ubuntu-emacs-hugo/</loc>
   </url>
 </urlset>
