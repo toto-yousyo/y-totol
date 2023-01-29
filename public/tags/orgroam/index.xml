@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>orgroam on TOTOL</title>
+    <link>http://totol.yousyo.com/tags/orgroam/</link>
+    <description>Recent content in orgroam on TOTOL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="http://totol.yousyo.com/tags/orgroam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Org-roamを学び始める</title>
+      <link>http://totol.yousyo.com/posts/org-roam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://totol.yousyo.com/posts/org-roam/</guid>
+      <description> Org-roam というものがある。&amp;gt;Org-roamがメモを取っていくのに役立つのなら、これを中心に記憶の宮殿を作成していく。
+Org-roam についての&amp;gt;マニュアルを確認しながら実行する。また、Org-roam のブログがいくつかあるので、下記のもののとおり、一旦やって理解を深めてみる。
+Boris Buliga - Task management with org-roam Vol. 1: Path to Roam
+上記ブログでは、Meta-project ごとに PROPERTIES を作成し、その中でカテゴリーを分けた。
+:CATEGORY: Org-roam :CATEGORY: blog org-agenda-filter- by -category でこのカテゴリーごとに表示を分けていたが、&amp;ldquo;No mactch point&amp;quot;とでて、何も表示されなかった。
+しかし、これはまず、org-agenda view で、TODO List に行き、mactch todo/prop/tags[m]を選択する必要があった。
+TODO org-roam のブログを見ながら同じようにやってみる Tangent のファイルも移行してみる それに ID を自動的にふる方法を探す ID をふっていく タグの使用方法を調べる プロジェクトはどのように設定するか タスクが集まったものが project ブログのように最終結果がないものは Meta-project とよぶ Resource をフォルダで作成する ウェブのブックマークリンクはここに入れていく タグをふる </description>
+    </item>
+    
+  </channel>
+</rss>
