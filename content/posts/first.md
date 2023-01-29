@@ -1,15 +1,7 @@
 ---
-title: "First"
+title: "TOTOL; Emacs,and Org-mode"
 date: 2023-01-21T22:54:21+09:00
 draft: false
 ---
 
-#　テスト
-## これで日本語をするとどうか
-どこまでできるか
-- いつ
-- どこ
-- どこ
-## これは
-どこまでできるか２
-### 終了
+# Emacs, Org-mode をいろいろ勉強中
